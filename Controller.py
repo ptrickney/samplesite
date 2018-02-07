@@ -27,5 +27,3 @@ class home:
 if __name__ == "__main__":
     app.run()
     
-def wsgiHandler():
-    return web.application(urls, globals(), autoreload=False).wsgifunc()
